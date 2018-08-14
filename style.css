@@ -1,0 +1,157 @@
+/* BASIC STYLES*/
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+header {
+    background-color: #003153;
+}
+
+input,
+select {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+button {
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(63,175,166);
+    color: white;
+    font-size: 20px;
+    font-family: inherit;
+    border-radius: 5px;
+    border-style: initial;
+}
+textarea {
+    width: 100%;
+    height: 95px;
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 3px;
+    background-color:lightgoldenrodyellow;;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select  {
+    width: 100%;
+    height: 45px;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #eeeeee;
+    border:0;
+}
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+}
+input:focus {
+    border-color:blue;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+}
+/*
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+    border: 1px solid blue;
+} */
+/*CLASSIC STYLES*/
+.the-form h2,
+.the-secondform h2 {
+    font-size: 23px; 
+    font-weight: bold;
+    padding-top: 5%;
+    color: #003153;
+    padding-bottom: 2%;
+    margin-bottom: 0;
+}
+.second-title {
+    color: #003153;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 32px;
+}
+::placeholder {
+    text-align: right;
+    font-style: italic;
+    padding-right: 5%;
+    color: grey;
+}
+    #zip-code {
+    width: 50%;
+}
+.title,
+.main-form {
+    display: flex;
+    flex-direction: column;
+}
+.title h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.main-form p {
+    text-align: center;
+    margin-top: 0;
+    margin-right: 2%;
+    margin-bottom: 0;
+    margin-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 8%;
+    border-bottom: 5px solid #003153;
+    color: grey;
+}
+.the-form {
+    margin-left: 3%;
+    margin-right: 3%;
+    border-top: 1.5px solid #003153;
+    margin-right: 2%;
+    margin-top: 2px;
+}
+.the-form label {
+    color: grey;
+}
+
+.the-secondform {
+    margin-left: 3%;
+    margin-right: 3%;
+    border-top: 1.5px solid black;
+}
+.the-secondform label ,
+.second label{
+    font-size: 20px;
+    margin: auto;
+}
+.news-main {
+    margin-left: 7px;
+}
+.second,
+.btn-signup {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.btn-signup {
+    margin-right: 3%;
+    margin-bottom: 5%;
+}
+
+
+/*MEDIA QUERIES*/
+@media (min-width:1024px) {
+    main,
+    footer {
+        width: 40%;
+        vertical-align: center;
+        margin: auto;
+    }
+}
+
+
+
