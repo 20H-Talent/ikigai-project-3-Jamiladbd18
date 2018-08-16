@@ -6,7 +6,7 @@
     <title>Project-3 The Code Review</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 <body>
     <header class="title">
@@ -16,8 +16,10 @@
         <h2 class="second-title">Signup for our newsletter</h2>
         <p>Get the latest news on how your code is doing right in your inbox</p>
         <div>
+            <div class="top-line"></div>
             <form class="the-form">
-                <h2>Contact Information</h2>
+                <fieldset>
+                <legend>Contact Information</legend>
                     <div>
                         <label for="name" >Full Name</label><br>
                         <input type="text" id="name" name="user_name" placeholder="Required">
@@ -64,47 +66,45 @@
                             <label for="city" >Zip Code</label><br>
                             <input type="text" id="zip-code" name="user_zip">
                     </div>
-                </form>
-            </div>    
-                
+                </fieldset>
+                <fieldset>
+                    <legend>Newsletter</legend>
 
+                    <label class="news-main">Select the newsletters you would like to receive</label>
 
-            
-                    <form class="the-secondform"> 
-                        <h2>Newsletter</h2>
+                    <div class="news-main">
+                        <input type="checkbox" id="html" name="user_preference1"><label class="checkbox" for="html">HTML News</label>
+                    </div>
 
-                        <label class="news-main">Select the newsletters you would like to receive</label>
+                    <div class="news-main">
+                        <input type="checkbox" id="css" name="user_preference2"><label class="checkbox" for="css">CSS News</label>
+                    </div>
 
-                        <div class="news-main">
-                            <input type="checkbox" id="html" name="user_preference1"><label class="checkbox" for="html">HTML News</label>
-                        </div>
+                    <div class="news-main">
+                        <input type="checkbox" id="Javascript" name="user_preference3"><label class="checkbox" for="Javascript">Javascript News</label>
+                    </div>
 
-                        <div class="news-main">
-                            <input type="checkbox" id="css" name="user_preference2"><label class="checkbox" for="css">CSS News</label>
-                        </div>
+                    <label class="news-main">Newsletter format</label>
 
-                        <div class="news-main">
-                            <input type="checkbox" id="Javascript" name="user_preference3"><label class="checkbox" for="Javascript">Javascript News</label>
-                        </div>
+                    <div class="news-main">
+                        <input type="radio" id="html-1" name="user_preference"><label class="radio" for="html-1">HTML</label>
+                    </div>
 
-                        <label class="news-main">Newsletter format</label>
-
-                        <div class="news-main">
-                            <input type="radio" id="html-1" name="user_preference"><label class="radio" for="html-1">HTML</label>
-                        </div>
-
-                        <div class="news-main">
-                            <input type="radio" id="plain" name="user_preference"><label class="radio" for="plain">Plain text</label>
-                        </div>
-                    </form>
-                    <div class="second">
+                    <div class="news-main">
+                        <input type="radio" id="plain" name="user_preference"><label class="radio" for="plain">Plain text</label>
+                    </div>
+                </fieldset>
+                <div class="second">
                         <label for="user_opinion">Other topics you'd like to hear about</label><br>
-                        <textarea id="user_opinion" name="user_foruser"></textarea>
+                        <textarea id="user_opinion" name="user_foruser" ></textarea>
                     </div>
                     <div class="btn-signup"> 
                         <button type="submit" value="submit">Sign Up</button>
                     </div>
-    </main>
+  
+                </form>
+        </div>    
+        </main> 
     <footer>
             <p>Copyright The Code Review</p>
     </footer>
