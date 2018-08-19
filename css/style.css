@@ -148,7 +148,7 @@ legend {
 @media (min-width:768px) {
     main,
     footer {
-        width: 35%;
+        width: 70%;
         vertical-align: center;
         margin: auto;
     }
@@ -160,12 +160,13 @@ legend {
     }
     .news-main2 label,
     .news-main3 label {
-        width: 30%; 
-        margin-right: 3%;
+        width: 20%; 
+        font-size: 12px;
+        margin-right: 1%;
     }
     .news-main2 input,
     select {
-        width: 65%; 
+        width: 79%; 
     }
     #zip-code {
         width: 115px;
