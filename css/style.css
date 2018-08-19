@@ -75,7 +75,7 @@ input[type="radio"]:checked {
 legend {
     font-size: 23px; 
     font-weight: bold;
-    padding-top: 5%;
+    padding-top: 10%;
     color: #003153;
     padding-bottom: 2%;
     margin-bottom: 0;
@@ -84,7 +84,7 @@ legend {
     color: #003153;
     text-align: center;
     margin-bottom: 0;
-    font-size: 32px;
+    font-size: 20px;
 }
 ::placeholder {
     text-align: right;
@@ -93,7 +93,7 @@ legend {
     color: grey;
 }
     #zip-code {
-    width: 50%;
+    width: 40%;
 }
 .title,
 .main-form {
@@ -101,7 +101,7 @@ legend {
     flex-direction: column;
 }
 
-.main-form p {
+.first-paragraph {
     text-align: center;
     margin-top: 0;
     margin-right: 2%;
@@ -112,9 +112,9 @@ legend {
     border-bottom: 5px solid #003153;
     color: grey;
 }
-.the-form {
-    
-    margin-top: 2px;
+.the-form p{
+    padding-top: 1.5%;
+    color: grey;
 }
 .top-line {
     border-top: 2px solid #003153;
@@ -132,6 +132,7 @@ legend {
 .news-main {
     margin-left: 7px;
 }
+
 .second,
 .btn-signup {
     margin-left: 3%;
@@ -147,9 +148,27 @@ legend {
 @media (min-width:768px) {
     main,
     footer {
-        width: 40%;
+        width: 70%;
         vertical-align: center;
         margin: auto;
+    }
+    .news-main2,
+    .news-main3 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .news-main2 label,
+    .news-main3 label {
+        width: 30%; 
+        margin-right: 3%;
+    }
+    .news-main2 input,
+    select {
+        width: 65%; 
+    }
+    #zip-code {
+        width: 115px;
     }
 }
 
