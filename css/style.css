@@ -148,7 +148,7 @@ legend {
 @media (min-width:768px) {
     main,
     footer {
-        width: 70%;
+        width: 50%;
         vertical-align: center;
         margin: auto;
     }
