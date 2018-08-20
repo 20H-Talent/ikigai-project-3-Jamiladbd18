@@ -64,8 +64,9 @@ footer {
 
 fieldset {
   border: none;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 1em;
 }
 
 input:focus {
@@ -88,7 +89,6 @@ legend {
   font-weight: bold;
   color: #003153;
   margin-bottom: 0;
-  margin-top: 1em;
 }
 .second-title {
   color: #003153;
@@ -145,13 +145,8 @@ input::placeholder {
   margin-right: 2%;
 }
 
-.second,
+
 .btn-signup {
-  margin-left: 3%;
-  margin-right: 3%;
-}
-.btn-signup {
-  margin-right: 3%;
   margin-bottom: 5%;
 }
 
@@ -159,7 +154,7 @@ input::placeholder {
 @media (min-width: 768px) {
   main,
   footer {
-    width: 70%;
+    width: 50%;
     vertical-align: center;
     margin: auto;
   }
