@@ -92,11 +92,14 @@ legend {
 }
 .second-title {
   color: #003153;
+  font-weight: bold;
   text-align: center;
   margin-top: 1.5em;
   margin-bottom: 0;
   font-size: 20px;
 }
+
+
 input::placeholder {
   text-align: right;
   font-style: italic;
@@ -111,6 +114,10 @@ input::placeholder {
   flex-direction: column;
 }
 
+.main-form {
+  padding: 0 1.5em;
+}
+
 .first-paragraph {
   text-align: center;
   margin-top: 0;
@@ -122,7 +129,9 @@ input::placeholder {
 }
 .the-form p {
   margin-top: 1.5em;
+  margin-bottom: 1.2em;
   color: grey;
+  font-size: 1em;
 }
 .top-line {
   border-top: 2px solid #003153;
@@ -132,14 +141,14 @@ input::placeholder {
   color: grey;
 }
 .second label {
-  font-size: 20px;
-  margin: auto;
+  font-size: 1em;
 }
 .news-main {
   margin-left: 7px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  font-size: 1em;
 }
 .news-main input {
   margin-right: 2%;
@@ -185,5 +194,9 @@ input::placeholder {
   }
   #zip-code {
     width: 115px;
+  }
+
+  .second {
+    margin-top: 2em;
   }
 }
